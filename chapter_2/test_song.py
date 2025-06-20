@@ -42,3 +42,13 @@ def test_verse_3():
         "2 bottles of beer on the wall.\n"
     )
     assert song.verse(3) == expected
+
+def test_verse_4():
+    song = Song()
+    expected = (
+        "4 bottles of beer on the wall, "
+        "4 bottles of beer.\n"
+        "Take one down and pass it around, "
+        "3 bottles of beer on the wall.\n"
+    )
+    assert song.verse(4) == expected
