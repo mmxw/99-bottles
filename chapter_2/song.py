@@ -22,7 +22,7 @@ class Song:
                     "Take one down and pass it around, "
                     "1 bottle of beer on the wall.\n"
                 )
-            case number if number > 2:
+            case _:
                 return (
                     f"{number} bottles of beer on the wall, "
                     f"{number} bottles of beer.\n"
