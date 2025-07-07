@@ -22,3 +22,11 @@
         "1"                bottle         1
         "2"                bottles        2
         "99"               bottles        99
+        
+## 4.4 Choosing meaningful Default
+    - option 1: `remainder`
+        [remainder]    [container]   [number]
+        "no more"          bottles        0
+        "1"                bottle         1
+        "2"                bottles        2
+        "99"               bottles        99
